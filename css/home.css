@@ -226,3 +226,102 @@ main .home-page-product-section .row{
         grid-template-columns: repeat(1 , 1fr);
     }
 }
+
+/* --------------------- */
+/* Supper Offer section */
+/* ------------------- */
+
+.supper-offer-section{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    padding: 20px;
+    font-size: 1em;
+}
+
+.supper-offer-section .supper-offer-box .body{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+
+.supper-offer-box{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.supper-offer-box > .title{
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 30px;
+    display: inline-block;
+    border-radius: 0 0 20px 20px ;
+}
+
+.supper-offer-box .body{
+
+}
+
+.supper-offer-box .body .col-lg-4 .img-container{
+    text-align: center;
+    padding: 30px;
+}
+
+.supper-offer-box .body .col-lg-4 .img-container img{
+    width: 100%;
+}
+
+.supper-offer-box .body .col-lg-8 .spesification{
+    padding: 30px 5px;
+}
+
+.supper-offer-box .body .col-lg-8 .spesification .price-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supper-offer-box .body .col-lg-8 .spesification .price-row .price{
+    margin-left: 60px;
+    color: #444;
+    font-size: 1.2em;
+}
+
+.supper-offer-box .body .col-lg-8 .spesification .price-row .off{
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 25px;
+    
+}
+
+.supper-offer-box .body .col-lg-8 .spesification .title{
+    margin: 40px 0px;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.4em;
+}
+
+.supper-offer-box .body .col-lg-8 .spesification .counter-down{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 10px 40px;
+    padding-top: 20px;
+    color:  #666;
+    font-size: 1.5em;
+}
+
+.supper-offer-box .body .col-lg-8 .spesification .remaining-time{
+   color: #777;
+   font-size: 0.8em; 
+}
+
+.col-lg-3 .banner{
+    text-align: center;
+    padding: 0px 5px 0 15px;
+}
+
+.col-lg-3 .banner img{
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+}
